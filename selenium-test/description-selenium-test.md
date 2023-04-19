@@ -1,4 +1,4 @@
-api-test  ------api-tests
+```api-test  ------api-tests
             |           
             |
             ----selenium-tests
@@ -18,7 +18,7 @@ api-test  ------api-tests
             |
             ----geckodriver.exe
             |
-            ----chromedriver.exe
+            ----chromedriver.exe```
             
 All tests are contained inside selenium-orfium.py, pages are are contained inside directory pages, and are constructed in distinct .py files, 
 there is a base_page.py which contain methods that could be used by different (in this case both) pages.
